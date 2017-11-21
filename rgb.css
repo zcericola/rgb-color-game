@@ -1,0 +1,77 @@
+body {
+    background-color: #232323;
+    text-align: center;
+    margin: 0;
+    font-family: "acme", sans-serif;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    background-color: orangered;
+    float: left;
+    border-radius: 10%;
+    transition: background-color 0.7s;
+    -webkit-transition: background-color 0.7s;
+    -moz-transition: background-color 0.7s;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1 {
+    color: azure;
+    margin: 0;
+    font-weight: normal;
+    line-height: 1.1;
+    padding: 20px 0;
+    background-color: steelblue;
+
+}
+
+
+#stripeHeader {
+    background-color: azure;
+    height: 30px;
+
+}
+
+.selected {
+    background-color: steelblue;
+    color: azure;
+}
+
+#colorDisplay {
+    font-size: 200%;
+
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-family: inherit;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+
+}
+
+button:hover {
+    color: azure;
+    background-color: steelblue;
+}
+
+#colorChecker {
+    display: inline-block;
+    width: 20%;
+}
